@@ -2,9 +2,12 @@
   "name": "contactbook-backend",
   "version": "1.0.0",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  // "scripts": {
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
+  "script": {
+    "start": "nodemon server.js"
+    },
   "author": "Phuong Du",
   "license": "ISC",
   "dependencies": {
@@ -15,5 +18,8 @@
     "type": "git",
     "url": "server.js"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodeom": "^0.0.1"
+  }
 }
